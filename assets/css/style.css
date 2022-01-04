@@ -30,7 +30,7 @@ body {
 
 /*creates the box for the header and sets its padding and margins as well as its font type and size. 
 makes the text float to the right of the container*/
-.header section {
+.header div {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -39,12 +39,12 @@ makes the text float to the right of the container*/
 }
 
 /*the list style is set to none so it doesnt have bulletpoints*/
-.header section ul {
+.header div ul {
     list-style-type: none;
 }
 
 /*makes the header display 25px left of the left container margin*/
-.header section ul li {
+.header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
